@@ -8,7 +8,7 @@ seq:
   - id: object
     type: object
     repeat: expr
-    repeat-expr: 18
+    repeat-expr: objects
 types:
   object:
     seq:
@@ -268,7 +268,7 @@ types:
             type: property
           - id: size
             type: property
-      
+
       static_motor:
         seq:
           - id: oid
@@ -277,8 +277,6 @@ types:
             type: property
           - id: dir
             type: property
-
-      
       hinge:
         seq:
           - id: body1
@@ -295,7 +293,6 @@ types:
             type: property
           - id: same_layer
             type: property
-
   property:
     seq:
       - id: name_size
